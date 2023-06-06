@@ -3,14 +3,25 @@
   
 }
 .nav {
-  background-color: #8499B1;
+  background-color: #654870;
+}
+.nav .nav-item .nav-link {
+  color: #FFECD6
 }
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #8499B1;
+  background-color: #654870;
   color: white;
   text-align: center;
+}
+body {
+  /* overflow-y: hidden; Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+#exampleText {
+  resize: both;
 }

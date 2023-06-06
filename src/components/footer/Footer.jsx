@@ -4,7 +4,9 @@ export default function Footer() {
 	
 	return (
 		<div class="footer">
-			<p>Vaughn Winter &#169;{year}</p>
+			<p style={{
+				color: "#FFECD6"
+			}}>Vaughn Winter &#169;{year}</p>
 		</div>
 	);
 }

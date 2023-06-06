@@ -8,45 +8,69 @@ import {
 	Row,
 	Col,
 } from "reactstrap";
-import mushknife2 from "../../assets/mush-knife2.png";
+import portfolioPhoto from "../../assets/portfolio-photo.jpg";
 
 export default function Home() {
+	
 	return (
 		<>
-			<div style={{ display: "flex", justifyContent: "left" }}>
-				<Container>
+			<Row>
+				<Col>
 					<Card
-						// className="my-2"
 						style={{
 							width: 720,
 							marginLeft: 60,
-							marginTop: 50,
+							marginTop: 30,
+							backgroundColor: "black",
 						}}
 					>
 						<CardImg
-							alt="Friend"
-							src={mushknife2}
+							alt="Vaughn Winter in his natural habitat"
+							src={portfolioPhoto}
 							style={{
-								width: 720,
+								height: "800px",
+								
 							}}
 						/>
 					</Card>
+				</Col>
+				{/* </Row>
 
-					<Card>
+			<Row> */}
+				<Col></Col>
+
+				<Col>
+					<Row
+						style={{
+							height: "275px",
+						}}
+					></Row>
+					<Card
+						style={{
+							justifyContent: "right",
+							width: "885.13px",
+							marginRight: "50px",
+							marginTop: "50px",
+							backgroundColor: "#8499B1"
+						}}
+					>
 						<CardBody>
-							<CardTitle tag="h5">Card Title</CardTitle>
-							<CardText>
-								This is a wider card with supporting text below as a natural
-								lead-in to additional content. This content is a little bit
-								longer.
-							</CardText>
-							<CardText>
-								<small className="text-muted">Last updated 3 mins ago</small>
+							<CardTitle tag="h5" style={{
+								color: "#271F16"
+							}}>Hi there!</CardTitle>
+							<CardText
+								style={{
+									lineHeight: "2.5",
+									color: "#271F16",
+									paddingBottom: "20px"
+								}}
+							>
+								My name is Vaughn Hildebrand Winter, and I am a developer looking to see what I am capable of in this field. I am looking to start off as a full-stack developer, and eventually transition to becoming a video game developer.
 							</CardText>
 						</CardBody>
 					</Card>
-				</Container>
-			</div>
+				</Col>
+			</Row>
 		</>
 	);
 }
