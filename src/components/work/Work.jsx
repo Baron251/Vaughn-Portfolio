@@ -5,11 +5,11 @@ export default function Work() {
     <Row>
       <Col>
     <Card style={{
-           height: "400px",
+           height: "400px",,
            backgroundColor: "#8499B1"
     }}>
-      <CardBody style={{color: "#271F16"}}>
-        <CardTitle><b>Previous Roles:</b></CardTitle>
+      <CardBody>
+        <CardTitle>Jobs worked at:</CardTitle>
         <CardText>
       <b>Overnight Stocker | Price Chopper</b> <br />The job involved being a trained team member responsible for safety, product placement, and certified Pallet Jack operation. Tasks included arranging products on store shelves per merchandising guidelines, restocking from storage, inspecting and removing damaged items, providing customer assistance, collaborating with colleagues and management for efficient operations, maintaining appealing displays, and reporting suspicious activities.
         </CardText> <br />
@@ -30,16 +30,10 @@ export default function Work() {
       
       </Col>
       <Col><Card style={{
-        height: "400px",
-        lineHeight: "17.5px",
-        backgroundColor: "#8499B1"
+        height: "400px"
       }}>
-        <CardBody style={{color: "#271F16"}}>
-          <CardTitle><b>Transferable Skills:</b></CardTitle><br />
-          <CardText>Persistence</CardText>
-          <CardText>Adaptability</CardText>
-          <CardText>Quality Control</CardText>
-          <CardText>Logical Thinking</CardText>
+        <CardBody>
+          <CardTitle>Transferable Skills:</CardTitle>
           <CardText>Problem Solving</CardText>
           <CardText>Attention to Detail</CardText>
           <CardText>Analytical Thinking</CardText>
