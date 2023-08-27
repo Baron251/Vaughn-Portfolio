@@ -8,7 +8,7 @@ import {
 	Container,
 	Row,
 } from "reactstrap";
-
+import MontyP from '../../assets/MontyP.jpg'
 export default function AboutMe() {
 	return (
 		<>
@@ -72,7 +72,7 @@ export default function AboutMe() {
 					>
 						<CardImg
 							alt="Card image cap"
-							src="https://distefanolandscaping.com/wp-content/uploads/2020/02/home-hero-scaled.jpg"
+							src={MontyP}
 							top
 							width="100%"
 							height="300px"
