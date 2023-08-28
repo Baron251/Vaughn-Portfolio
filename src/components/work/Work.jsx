@@ -31,7 +31,8 @@ export default function Work() {
       </Col>
       <Col><Card style={{
         height: "400px",
-        lineHeight: "17.5px"
+        lineHeight: "17.5px",
+        backgroundColor: "#8499B1",
       }}>
         <CardBody>
           <CardTitle><b>Transferable Skills:</b></CardTitle><br />

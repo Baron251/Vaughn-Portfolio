@@ -1,8 +1,8 @@
 {
   "name": "portfolio-cra-github-pages",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "<UPDATE-THIS-TO-YOUR-GITHUB-PROJECT-URL>",
+  "private": false,
+  "homepage": "https://Baron251.github.io/Vaughn-Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.2",
