@@ -39,31 +39,26 @@ export default function Navbar() {
 						{title}
 					</h3>
 				</Col>
-				<Col
-					style={
-						{
-							// width: "900px"
-						}
-					}
-				>
+
+				<Col>
 					<Nav fill justified tabs>
 						<NavItem>
-							<NavLink href="/">Home</NavLink>
+							<NavLink href="baron251.github.io/">Home</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="/aboutme">About Me</NavLink>
+							<NavLink href="baron251.github.io/aboutme">About Me</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="/projects">Projects</NavLink>
+							<NavLink href="baron251.github.io/projects">Projects</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="/interests">Interests</NavLink>
+							<NavLink href="baron251.github.io/interests">Interests</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="/work">Work History</NavLink>
+							<NavLink href="baron251.github.io/work">Work History</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="/contact">Contact Me</NavLink>
+							<NavLink href="baron251.github.io/contact">Contact Me</NavLink>
 						</NavItem>
 					</Nav>
 				</Col>
