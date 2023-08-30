@@ -7,17 +7,17 @@ export default function Navbar() {
 	const location = useLocation();
 
 	useEffect(() => {
-		if (location.pathname === "/aboutme") {
+		if (location.pathname === "#/aboutme") {
 			setTitle("About Me");
-		} else if (location.pathname === "/projects") {
+		} else if (location.pathname === "#/projects") {
 			setTitle("Projects");
-		} else if (location.pathname === "/interests") {
+		} else if (location.pathname === "#/interests") {
 			setTitle("Interests");
-		} else if (location.pathname === "/work") {
+		} else if (location.pathname === "#/work") {
 			setTitle("Work History");
-		} else if (location.pathname === "/contact") {
+		} else if (location.pathname === "#/contact") {
 			setTitle("Contact Me");
-		} else if (location.pathname === "/") {
+		} else if (location.pathname === "#/") {
 			setTitle("Home");
 		}
 	}, []);
