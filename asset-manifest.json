@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Vaughn-Portfolio/aboutme/static/css/main.998f2e06.css",
-    "main.js": "/Vaughn-Portfolio/aboutme/static/js/main.6056db5c.js",
-    "static/js/787.e88677de.chunk.js": "/Vaughn-Portfolio/aboutme/static/js/787.e88677de.chunk.js",
-    "static/media/portfolio-photo.jpg": "/Vaughn-Portfolio/aboutme/static/media/portfolio-photo.d3afa87e8834c2eeb946.jpg",
-    "static/media/MontyP.jpg": "/Vaughn-Portfolio/aboutme/static/media/MontyP.8f1194cce41c5cf054ff.jpg",
-    "index.html": "/Vaughn-Portfolio/aboutme/index.html",
-    "main.998f2e06.css.map": "/Vaughn-Portfolio/aboutme/static/css/main.998f2e06.css.map",
-    "main.6056db5c.js.map": "/Vaughn-Portfolio/aboutme/static/js/main.6056db5c.js.map",
-    "787.e88677de.chunk.js.map": "/Vaughn-Portfolio/aboutme/static/js/787.e88677de.chunk.js.map"
+    "main.css": "/Vaughn-Portfolio/static/css/main.998f2e06.css",
+    "main.js": "/Vaughn-Portfolio/static/js/main.9164e6cd.js",
+    "static/js/787.e88677de.chunk.js": "/Vaughn-Portfolio/static/js/787.e88677de.chunk.js",
+    "static/media/portfolio-photo.jpg": "/Vaughn-Portfolio/static/media/portfolio-photo.d3afa87e8834c2eeb946.jpg",
+    "static/media/MontyP.jpg": "/Vaughn-Portfolio/static/media/MontyP.8f1194cce41c5cf054ff.jpg",
+    "index.html": "/Vaughn-Portfolio/index.html",
+    "main.998f2e06.css.map": "/Vaughn-Portfolio/static/css/main.998f2e06.css.map",
+    "main.9164e6cd.js.map": "/Vaughn-Portfolio/static/js/main.9164e6cd.js.map",
+    "787.e88677de.chunk.js.map": "/Vaughn-Portfolio/static/js/787.e88677de.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.998f2e06.css",
-    "static/js/main.6056db5c.js"
+    "static/js/main.9164e6cd.js"
   ]
 }
