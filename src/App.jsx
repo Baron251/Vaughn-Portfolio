@@ -15,11 +15,11 @@ function App() {
 			<Navbar />
 			<Routes>
 				<Route path="https://baron251.github.io/Vaughn-Portfolio/#/" element={<Home />} />
-				<Route path="#/aboutme" element={<AboutMe />} />
-				<Route path="#/projects" element={<Projects />} />
-				<Route path="#/interests" element={<Interests />} />
-				<Route path="#/work" element={<Work />} />
-				<Route path="#/contact" element={<Contact />} />
+				<Route path="/aboutme" element={<AboutMe />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/interests" element={<Interests />} />
+				<Route path="/work" element={<Work />} />
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
 			<Footer />
 		</div>
