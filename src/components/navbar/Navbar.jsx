@@ -43,7 +43,7 @@ export default function Navbar() {
 				<Col>
 					<Nav fill justified tabs>
 						<NavItem>
-							<NavLink href="#/">Home</NavLink>
+							<NavLink href="#/home">Home</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#/aboutme">About Me</NavLink>
