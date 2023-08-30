@@ -43,7 +43,7 @@ export default function Navbar() {
 				<Col>
 					<Nav fill justified tabs>
 						<NavItem>
-							<NavLink href="#/">Home</NavLink>
+							<NavLink href="https://baron251.github.io/Vaughn-Portfolio/#/">Home</NavLink>
 						</NavItem>
 						<NavItem>
 							<NavLink href="#/aboutme">About Me</NavLink>
@@ -58,7 +58,7 @@ export default function Navbar() {
 							<NavLink href="#/work">Work History</NavLink>
 						</NavItem>
 						<NavItem>
-							<NavLink href="#/contact">Contact Me</NavLink>
+							<NavLink href="https://baron251.github.io/Vaughn-Portfolio/#/contact">Contact Me</NavLink>
 						</NavItem>
 					</Nav>
 				</Col>
