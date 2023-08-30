@@ -7,17 +7,17 @@ export default function Navbar() {
 	const location = useLocation();
 
 	useEffect(() => {
-		if (location.pathname === "#/aboutme") {
+		if (location.pathname === "https://baron251.github.io/Vaughn-Portfolio/#/aboutme") {
 			setTitle("About Me");
-		} else if (location.pathname === "#/projects") {
+		} else if (location.pathname === "https://baron251.github.io/Vaughn-Portfolio/#/projects") {
 			setTitle("Projects");
-		} else if (location.pathname === "#/interests") {
+		} else if (location.pathname === "https://baron251.github.io/Vaughn-Portfolio/#/interests") {
 			setTitle("Interests");
-		} else if (location.pathname === "#/work") {
+		} else if (location.pathname === "https://baron251.github.io/Vaughn-Portfolio/#/work") {
 			setTitle("Work History");
-		} else if (location.pathname === "#/contact") {
+		} else if (location.pathname === "https://baron251.github.io/Vaughn-Portfolio/#/contact") {
 			setTitle("Contact Me");
-		} else if (location.pathname === "#/") {
+		} else if (location.pathname === "https://baron251.github.io/Vaughn-Portfolio/#/") {
 			setTitle("Home");
 		}
 	}, []);
