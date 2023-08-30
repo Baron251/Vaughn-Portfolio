@@ -9,11 +9,11 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HashRouter> */}
-    <BrowserRouter basename='/Vaughn-Portfolio'>
+    <HashRouter basename='/Vaughn-Portfolio'>
+    {/* <BrowserRouter basename='/Vaughn-Portfolio'> */}
     <App />
-    </BrowserRouter>
-    {/* </HashRouter> */}
+    {/* </BrowserRouter> */}
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
