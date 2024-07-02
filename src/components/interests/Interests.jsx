@@ -26,7 +26,7 @@ export default function Interests() {
 				>
 					<img
 						src="https://i.redd.it/a36lsna13ub31.jpg"
-						alt="lorem"
+						alt="warframe orb valis"
 						style={{
 							width: "500px",
 							height: "200px",
@@ -81,8 +81,8 @@ export default function Interests() {
 						</CardBody>
 					</Card>
 					<img
-						src="https://cdn.discordapp.com/attachments/876205192461316118/979455168280166520/20220524_171657.jpg"
-						alt="lorem"
+						src=""
+						alt="Metal Grasshopper"
 						style={{
 							width: "500px",
 							height: "300px",
@@ -96,8 +96,8 @@ export default function Interests() {
 					}}
 				>
 					<img
-						src="https://cdn.discordapp.com/attachments/412084933834833933/1115476400116338718/catDnD.jpg"
-						alt="lorem"
+						src=""
+						alt="Dungeons & Dragons with cats"
 						style={{
 							width: "500px",
 							height: "200px",
